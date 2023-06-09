@@ -1,0 +1,47 @@
+.darkOrangeStars {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 136, 0);
+  height: 100%;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.greyStars {
+  color: rgb(255, 255, 255);
+  background-color: lightgrey;
+  height: 100%;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.orangeStars {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 177, 31);
+  height: 100%;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.orangeRedStars {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 79, 25);
+  height: 100%;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.yellowStars {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 220, 80);
+  height: 100%;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.redStars {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 21, 0);
+  height: 100%;
+  padding: 5px;
+  border-radius: 5px;
+}

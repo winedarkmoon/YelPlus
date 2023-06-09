@@ -1,0 +1,232 @@
+.logInHPButton {
+    font-size: 16px;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bolder;
+    background: transparent;
+    margin-right: 10px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.logInHPButton:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.logo {
+    width: 100px;
+    height: 30px;
+    margin-left: 40px;
+}
+
+.logoDiv {
+    width: 13.3%;
+    padding-right: 40px;
+    display: flex;
+}
+
+#logoutButtonInDropDown {
+    border: none;
+    border-top: lightgrey solid 1px;
+    background-color: white;
+    width: 100%;
+    padding: 15px;
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#logoutButtonInDropDown:hover {
+    background-color: rgb(240, 237, 237);
+    border-radius: 4px;
+}
+
+#navBar {
+    height: 100px;
+    min-width: 1057px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+}
+
+#signUpHPButton {
+    margin-right: 50px;
+    font-size: 16px;
+    font-weight: bolder;
+    width: 90px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 4px;
+    background: #d32323;
+    border-color: #d32323;
+    border-style: solid;
+    color: #ffffff;
+}
+
+#signUpHPButton:hover {
+    background-color: #e00707;
+}
+
+.searchBarForm {
+    display: flex;
+    flex-direction: row;
+    border-bottom-left-radius: 5px;
+    border-style: none;
+    border-top-left-radius: 5px;
+    color: grey;
+    font-size: 16px;
+    min-width: 200px;
+    width: 90%;
+}
+
+#searchBarLocation {
+    background-color: #ffffff;
+
+}
+
+#searchBarTerm {
+    background-color: #ffffff;
+    position: relative;
+    border-right: 2px solid #ebebeb;
+    padding: 12px;
+
+}
+
+.searchInput {
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    inset: 0px;
+    display: inline-block;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 23.2167px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    font-kerning: auto;
+    vertical-align: baseline;
+    padding: 0px;
+    border-width: 0px;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding-left: 1.1%;
+    padding-right: 1.1%;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
+    position: relative;
+    font-weight: 400;
+}
+
+#searchBarDiv {
+    width: 50%;
+    min-width: 40%;
+    display: flex;
+    flex-direction: row;
+}
+
+.personalLinks {
+    border-style: none;
+    border: transparent;
+    background: transparent;
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.personalLinks:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 4px;
+}
+
+#personalLinksDiv {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#ProfileDropdownWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 40px;
+}
+
+
+#searchButton {
+    background: #d32323;
+    border-color: #d32323 solid;
+    width: 10%;
+    cursor: pointer;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    z-index: 2;
+}
+
+#searchButton:hover {
+    background-color: #e00707;
+}
+
+#startSessionLinks {
+    display: flex;
+    flex-direction: row;
+}
+
+#magGlass {
+    height: 65%;
+    width: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#userDropDownInNavBar {
+    background-color: transparent;
+    border: none;
+    width: 50px;
+    height: 50px;
+    margin-right: 40px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 10;
+}
+
+#userDropDownMenu {
+    background-color: white;
+    box-shadow: 0 0 5px 0 #d2d2d2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 110px;
+    gap: 10px;
+    padding: 15px 0px 0px 0px;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 10;
+    margin-right: 110px;
+    top: 25px;
+}
+
+#userPhotoIconInNav {
+    display: flex;
+    width: 45px !important;
+    height: 45px !important;
+    color: lightgrey;
+}

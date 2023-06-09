@@ -1,0 +1,345 @@
+.splash-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 960px;
+  height: 37px;
+  font-family: "helvetica";
+  line-height: 18px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left-splash-header-nav {
+  width: 756px;
+  min-width: 756px;
+}
+
+.left-splash-header-nav .header-nav_link {
+  border-radius: 0;
+  border-bottom: 2px solid transparent;
+  color: #fff;
+  display: block;
+  padding: 9px 12px 8px;
+  font-size: 14px;
+  line-height: 1.28571em;
+  font-weight: 700;
+  background: none;
+  cursor: pointer;
+}
+
+.right-splash-header-nav {
+  width: 186.78px;
+  min-width: 186.78px;
+  font-family: "helvetica";
+  line-height: 18px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left-splash-header-elements li {
+  display: inline-block;
+  margin-right: 2px;
+}
+
+.left-splash-header-elements li:hover {
+  border-bottom: 2px solid white;
+}
+
+.left-splash-header-elements li:active {
+  color: gray;
+}
+
+.not-logged-in,
+.logged-in {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-splash-header-elements {
+  display: inline-block;
+}
+
+#bizIndexPageWrapper .not-logged-in-login button {
+  border: 2px solid #d32323;
+  background: #d32323;
+  color: white;
+}
+.not-logged-in-login > button {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 9px;
+  padding-bottom: 8px;
+  margin-right: 12px;
+  border: none;
+  background: none;
+  color: inherit;
+  text-align: inherit;
+  outline: inherit;
+  font: inherit;
+  border: 2px solid white;
+  border-radius: 4px;
+  transition: background-color 0.5s ease;
+}
+
+.not-logged-in-login:hover > button {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.not-logged-in-login:active > button {
+  color: gray;
+}
+
+.not-logged-in-signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background-color: #d32323;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 9px;
+  padding-bottom: 8px;
+  margin-right: 12px;
+}
+.not-logged-in-signup .signup-link {
+  color: white;
+}
+.not-logged-in-signup:hover {
+  cursor: pointer;
+}
+
+.not-logged-in-signup:active {
+  color: lightgray;
+}
+
+.logged-in-notifications {
+  margin-left: 47px;
+  display: inline-block;
+  width: 76.424px;
+  height: 35.972px;
+}
+
+.message-icon,
+.profile-icon {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  color: white;
+  fill: currentColor;
+  padding: 6px;
+}
+
+.profile-icon {
+  margin-left: 4px;
+}
+
+.message-icon:hover,
+.profile-icon:hover {
+  border-radius: 3px;
+  background-color: rgba(51, 51, 51, 0.3);
+  cursor: pointer;
+}
+
+.user-nav {
+  display: inline-block;
+  width: 58px;
+  height: 38px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+}
+
+.user-nav:hover,
+.user-nav:visited {
+  background: rgba(0, 0, 0, 0.45);
+  cursor: pointer;
+}
+
+.logged-in-user-avatar-clickable {
+  display: inline-block;
+  height: 38px;
+  width: 38px;
+}
+
+.user-nav-clickable {
+  display: inline-block;
+  height: 14px;
+  width: 14px;
+  position: relative;
+  top: -13px;
+  right: -3px;
+  line-height: 18px;
+  text-align: center;
+  white-space: nowrap;
+  color: white;
+  fill: currentColor;
+}
+
+.user-nav-dropdown-aligner {
+  display: block;
+  position: relative;
+}
+
+.user-nav-dropdown {
+  position: absolute;
+  right: 0px;
+  box-sizing: border-box;
+  padding: 12px;
+  min-width: 217px;
+  background: white;
+  border: 1px solid gray;
+  border-radius: 3px;
+  border-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  color: rgb(0, 115, 187);
+  display: none; /* Remove this line */
+}
+.user-nav-dropdown li:hover {
+  text-decoration: underline;
+}
+
+.splash-container-main {
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.user-nav-0 {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.splash-business-categories-container {
+  margin: auto;
+  min-width: 1020px;
+  text-align: center;
+}
+#searchBarDivSplash {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.main-footer-container {
+  border-top: 1px solid #ccc;
+  background-color: rgb(245, 245, 245);
+  margin: auto;
+  min-width: 1020px;
+}
+
+.splash-container-inner {
+  padding-top: 80px;
+}
+
+.splash-logo-container {
+  width: 160px;
+  height: 80px;
+  padding: 0;
+  margin: 0 auto 48px;
+  background-repeat: no-repeat;
+  background-size: 160px 80px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.splash-container-main-background {
+  top: 0;
+  padding-top: 30px;
+  height: 570px;
+  background-color: #333;
+  background-size: cover;
+  background-position: 50%;
+  min-width: 1020px;
+}
+
+.search {
+  height: 63px;
+  display: block;
+}
+
+.splash-background-business {
+  font-family: helvetica;
+  text-align: center;
+  display: block;
+  margin: auto;
+  line-height: 18px;
+}
+.splash-background-photographer {
+  font-family: helvetica;
+  font-weight: 400;
+  text-align: center;
+  display: block;
+  line-height: 18px;
+  margin: auto;
+  padding-bottom: 47px;
+}
+
+strong {
+  font-weight: 700;
+}
+#searchBarSplash {
+  display: flex;
+}
+
+#bizIndexPageWrapper .user-nav {
+  display: inline-block;
+  width: 58px;
+  height: 38px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  margin-right: 50px;
+}
+.search-categories {
+  padding-bottom: 168px;
+  text-align: center;
+  font-family: helvetica;
+  margin-top: 15px;
+}
+
+.search-categories li {
+  padding: 0 12px 0 12px;
+  display: inline-block;
+  line-height: 18px;
+}
+
+.search-categories span:not(.icon):hover,
+.homeservices-dropdown:hover {
+  border-bottom: 1px solid white;
+}
+
+.splash-search-nav-homeservices:hover .homeservices-dropdown-container {
+  display: block;
+}
+
+.search-categories span {
+  margin-left: 4px;
+  margin-right: 4px;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+}
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  top: -0.1em;
+  fill: #666;
+}
+.relative-container {
+  position: relative;
+}
+
+.profile-dropdown {
+  position: absolute;
+  top: 100%; /* Position it at the bottom of the button */
+  left: 0; /* Align it to the left edge of the button */
+}

@@ -1,0 +1,9 @@
+.relative-container {
+  position: relative;
+}
+
+.profile-dropdown {
+  position: absolute;
+  top: 100%; /* Position it at the bottom of the button */
+  left: 0; /* Align it to the left edge of the button */
+}
