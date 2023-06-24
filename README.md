@@ -1,6 +1,6 @@
 # README
 
-### Live link:
+### Live link: https://yelplus.onrender.com/
 
 ## Background
 
@@ -35,7 +35,7 @@ YelPlus has seven core features:
 
 6. Hosting on Render.com
 
-   - https://.onrender.com
+   - https://yelplus.onrender.com/
 
 7. Production ReadME
 
